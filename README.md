@@ -38,7 +38,7 @@
 <p>NOME_DA_APLICACAO: Opcional, serve para identificar o nome da aplicação conectada.</p>
 
 #
-<h5>Gerar JWT_SECRET no Node.js:</h5>
+<h2>Gerar JWT_SECRET no Node.js:</h2>
 
 <p>Execute o comando abaixo no Node.js para gerar uma chave:</p>
 <p>require('crypto').randomBytes(64).toString('hex');</p>
