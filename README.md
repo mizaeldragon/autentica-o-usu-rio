@@ -24,6 +24,7 @@
 
 <p>JWT_SECRET="-CHAVE_SECRETA-"</p>
 
+#
 <p>Explicacao de cada parte do DATABASE_URL</p>
 
 <p>USUARIO: Substitua por seu nome de usuário do MongoDB.</p>
@@ -36,7 +37,7 @@
 
 <p>NOME_DA_APLICACAO: Opcional, serve para identificar o nome da aplicação conectada.</p>
 
-
+#
 <h5>Gerar JWT_SECRET no Node.js:</h5>
 
 <p>Execute o comando abaixo no Node.js para gerar uma chave:</p>
