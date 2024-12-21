@@ -19,9 +19,25 @@
 <p>Postman: Ferramenta para testes de API.</p>
 
 <h2>Crie um .ENV e coloque isso dentro dele.</h2>
-<h3>DATABASE_URL="mongodb+srv://<USUARIO>:<SENHA>@<CLUSTER>.mongodb.net/<NOME_DO_BANCO>?retryWrites=true&w=majority&appName=<NOME_DA_APLICACAO>"</h3>
 
-<h3>JWT_SECRET="<CHAVE_SECRETA>"</h3>
+<p>DATABASE_URL="mongodb+srv://-USUARIO-:-SENHA-@<CLUSTER>.mongodb.net/<NOME_DO_BANCO>?retryWrites=true&w=majority&appName=<NOME_DA_APLICACAO>"</p>
+
+<p>USUARIO: Substitua por seu nome de usuário do MongoDB.</p>
+
+<p>SENHA: Substitua pela senha correspondente ao usuário no MongoDB.</p>
+
+<p>CLUSTER: Nome do cluster que está configurado no MongoDB Atlas.</p>
+
+<p>NOME_DO_BANCO: Nome do banco de dados que você deseja acessar ou criar.</p>
+
+<p>NOME_DA_APLICACAO: Opcional, serve para identificar o nome da aplicação conectada.</p>
+
+<h5>JWT_SECRET="<CHAVE_SECRETA>"</h5>
+
+<h5>Gerar no Node.js:</h5>
+
+<p>Execute o comando abaixo no Node.js para gerar uma chave:</p>
+<p>require('crypto').randomBytes(64).toString('hex');</p>
 
 <h2>Licença</h2>
 <p>Este projeto está licenciado sob a MIT License. Sinta-se à vontade para utilizá-lo e adaptá-lo conforme necessário.</p>
