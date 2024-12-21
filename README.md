@@ -18,6 +18,10 @@
 <p>JWT (JSON Web Token): Para autenticação e autorização.</p>
 <p>Postman: Ferramenta para testes de API.</p>
 
+<h2>Crie um .ENV e coloque isso dentro dele.</h2>
+<h3>DATABASE_URL="mongodb+srv://<USUARIO>:<SENHA>@<CLUSTER>.mongodb.net/<NOME_DO_BANCO>?retryWrites=true&w=majority&appName=<NOME_DA_APLICACAO>"</h3>
+
+<h3>JWT_SECRET="<CHAVE_SECRETA>"</h3>
 
 <h2>Licença</h2>
 <p>Este projeto está licenciado sob a MIT License. Sinta-se à vontade para utilizá-lo e adaptá-lo conforme necessário.</p>
