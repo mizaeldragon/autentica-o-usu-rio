@@ -13,5 +13,11 @@
 
 <p>Node.js: Plataforma para desenvolvimento backend.</p>
 <p>Express: Framework web para Node.js.</p>
+<p>Prisma: ORM</p>
+<p>Banco de dados: Mongo DB</p>
 <p>JWT (JSON Web Token): Para autenticação e autorização.</p>
 <p>Postman: Ferramenta para testes de API.</p>
+
+
+<h2>Licença</h2>
+<p>Este projeto está licenciado sob a MIT License. Sinta-se à vontade para utilizá-lo e adaptá-lo conforme necessário.</p>
