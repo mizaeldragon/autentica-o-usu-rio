@@ -20,7 +20,11 @@
 
 <h2>Crie um .ENV e coloque isso dentro dele.</h2>
 
-<p>DATABASE_URL="mongodb+srv://-USUARIO-:-SENHA-@<CLUSTER>.mongodb.net/<NOME_DO_BANCO>?retryWrites=true&w=majority&appName=<NOME_DA_APLICACAO>"</p>
+<p>DATABASE_URL="mongodb+srv://-USUARIO-:-SENHA-@-CLUSTER-.mongodb.net/-NOME_DO_BANCO-?retryWrites=true&w=majority&appName=-NOME_DA_APLICACAO-"</p>
+
+<h5>JWT_SECRET="<CHAVE_SECRETA>"</h5>
+
+<p>Explicacao de cada parte do DATABASE_URL</p>
 
 <p>USUARIO: Substitua por seu nome de usuário do MongoDB.</p>
 
@@ -32,9 +36,8 @@
 
 <p>NOME_DA_APLICACAO: Opcional, serve para identificar o nome da aplicação conectada.</p>
 
-<h5>JWT_SECRET="<CHAVE_SECRETA>"</h5>
 
-<h5>Gerar no Node.js:</h5>
+<h5>Gerar JWT_SECRET no Node.js:</h5>
 
 <p>Execute o comando abaixo no Node.js para gerar uma chave:</p>
 <p>require('crypto').randomBytes(64).toString('hex');</p>
