@@ -22,7 +22,7 @@
 
 <p>DATABASE_URL="mongodb+srv://-USUARIO-:-SENHA-@-CLUSTER-.mongodb.net/-NOME_DO_BANCO-?retryWrites=true&w=majority&appName=-NOME_DA_APLICACAO-"</p>
 
-<h5>JWT_SECRET="<CHAVE_SECRETA>"</h5>
+<p>JWT_SECRET="-CHAVE_SECRETA-"</p>
 
 <p>Explicacao de cada parte do DATABASE_URL</p>
 
