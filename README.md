@@ -25,7 +25,7 @@
 <p>JWT_SECRET="-CHAVE_SECRETA-"</p>
 
 #
-<p>Explicacao de cada parte do DATABASE_URL</p>
+<h2>EXPLICACAO DE CADA PARTE DO DATABASE_URL</h2>
 
 <p>USUARIO: Substitua por seu nome de usuário do MongoDB.</p>
 
